@@ -1,8 +1,8 @@
 from InstagramBot import InstagramBot
 
-username = "dailymicio"
-password = "micio2"
-bot = InstagramBot("dailymicio", "micio2")
+username = "YOUR USERNAME"
+password = "YOUR PASSWORD"
+bot = InstagramBot("YOUR USERNAME", "YOUR PASSWORD")
 bot.login()
 
 TotalLikes=0
@@ -21,7 +21,7 @@ for hashtag in hashtags:
 
 print("This session you put: " + str(TotalLikes) + " Likes and " + str(TotalFollows) +" Follows" )
 
-bot.goToFollowing("dailymicio")
+bot.goToFollowing("YOUR PASSWORD")
 print("Start to unfollow " + str(1200) + " People")
 bot.unFollow(1200)
 
