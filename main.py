@@ -7,7 +7,7 @@ bot.login()
 
 TotalLikes=0
 TotalFollows=0
-hashtags = ["russiangirl","polskagirl"]
+hashtags = ["cats","dogs"]
 
 for hashtag in hashtags:
   nLikes=0
